@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="bibliotheque.rnc" type="compact"?>
+
+<!--  <?xml-stylesheet type="text/xsl" href="auteurs.xsl"?>-->
+<!DOCTYPE bibliotheque SYSTEM "bibliotheque.dtd">
+
+<?xml-stylesheet type="text/xsl" href="livres.xsl"?>
+
+<bibliotheque>
+    <livres>
+        <livre langue="fr" auteurs="e123 e456">
+            <titre>Notre dame de Paris</titre>
+            <annee>1831</annee>
+            <prix>6.99</prix>
+        </livre>
+        <livre langue="fr" auteurs="e456 e123">
+            <titre>Le dernier jour d'un condamné</titre>
+            <annee>1858</annee>
+            <prix>3.99</prix>
+        </livre>
+        <livre langue="fr" auteurs="e456">
+            <titre>Insomnique</titre>
+            <annee>2014</annee>
+            <prix devise="CAD">14.50</prix>
+        </livre>
+        <livre langue="fr" auteurs="e456">
+            <titre>Ablation</titre>
+            <annee>2000</annee>
+            <prix devise="CAD">12.95</prix>
+        </livre>
+        <livre langue="eng" auteurs="e678">
+            <annee>2019</annee>
+            <titre>A promised land</titre>
+            <prix devise="USD">55.00</prix>
+            <couverture>image</couverture>
+            <commentaire xmlns="http://www.iro.umontreal.ca/livre">Inspiration by Barack Obama</commentaire>
+        </livre>
+        <livre langue="eng" auteurs="e678">
+            <annee>2005</annee>
+            <titre>Audacity of hope</titre>
+            <prix devise="CAD">24.00</prix>
+        </livre>
+    </livres>
+    <auteurs>
+        <auteur ident="e123">
+            <nom>Hugo</nom>
+            <prenom>Victor</prenom>
+            <adresse>
+                <numero>1234</numero>
+                <rue>Sherbrooke</rue>
+                <ville>Montréal</ville>
+                <cp>A1A 2B2</cp>
+            </adresse>
+            <email>c-hris@t0phe.com</email>
+        </auteur>
+        <auteur ident="e456">
+            <prenom>Tahar</prenom>
+            <nom>Ben jelloun</nom>
+            <adresse>
+                <numero>20</numero>
+                <rue>Corniche</rue>
+                <ville>Casablanca</ville>
+                <cp>X1X 0X0</cp>
+            </adresse>
+            <commentaire xmlns="http://www.iro.umontreal.ca/auteur">Écrivain marocain</commentaire>
+            <email>Tahar@benjelloun.com</email>
+        </auteur>
+        <auteur ident="e678">
+            <nom>Obama</nom>
+            <prenom>Barack Hussein</prenom>
+            <adresse>
+                <numero>1</numero>
+                <rue>White House</rue>
+                <ville>Washington</ville>
+                <cp>X1X 2X7</cp>
+            </adresse>
+            <email>Barack@Obama.com</email>
+        </auteur>
+    </auteurs>
+    <adresse>
+        <numero>1234</numero>
+        <rue>sherbrooke</rue>
+        <ville>mtl</ville>
+        <cp>A2A 2A2</cp>
+    </adresse>
+</bibliotheque>
